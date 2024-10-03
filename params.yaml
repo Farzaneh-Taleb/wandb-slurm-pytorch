@@ -1,0 +1,22 @@
+method: grid
+metric:
+  goal: minimize
+  name: loss
+parameters:
+  batch_size:
+    value: 32
+  dataset_name:
+    value: MNIST
+  dropout:
+    value: 0.5
+  finetune:
+    value: false
+  n_corrupted_channels_available:
+    value: [-100]
+  seed:
+    values:
+      - 2023
+      - 2024
+      - 2025
+      - 2026
+      - 2027
