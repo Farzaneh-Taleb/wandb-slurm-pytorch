@@ -9,9 +9,11 @@ This respository is a template to configure wandb for a pytorh project that is s
 - **Modify params.yaml**
 Define different parameters that will be accessible through args object later. If you wish to try different values per variable, you can define it as "values" instead of "value".
 - **Modify add_nodes.sbatch and run_wandb.sbatch**
-- **Modify run.py** 
+Change these files according to the specifications of your project.
+- **Modify run.py**
+Replace your api_key. Also, log the variables that you want to check later in wandb console.
 - **Modify wandb_on_slurm.py**
-
+Replace your api_key and change other specifications if you need to
 
 ## Usage/Examples
 
