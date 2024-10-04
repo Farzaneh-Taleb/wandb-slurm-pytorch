@@ -17,13 +17,14 @@ Replace your api_key and change other specifications if you need to
 
 ## Usage/Examples
 
-First you need to run run_wandb.sbatch using the following command
+1) First you need to run run_wandb.sbatch using the following command
 
 ```bash
 sbatch run_wandb.sbatch
 ```
 
-Then wait for the process to run and get a sweep id. Then copy the swing_id in the add_nodes.sbatch and run the following:
+
+2) (Do this step if you want to run multiple jobs in parallel) Then wait for the process to run and get a sweep id. Then copy the sweep_id in the add_nodes.sbatch and run the following:
 
 
 ```bash
