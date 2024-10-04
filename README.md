@@ -7,6 +7,7 @@ This respository is a template to configure wandb for a pytorh project that is s
 ## Preparation
 
 - **Modify params.yaml**
+Define different parameters that will be accessible through args object later. If you wish to try different values per variable, you can define it as "values" instead of "value".
 - **Modify add_nodes.sbatch and run_wandb.sbatch**
 - **Modify run.py** 
 - **Modify wandb_on_slurm.py**
